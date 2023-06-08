@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="cn" oncontextmenu="return false" onselectstart="return false" oncopy="return false">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>消消乐</title>
+    <link rel="shortcut icon" href="/icon.png">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="navbar">
+        <div id="score">得分：
+          <span id="score-num">0</span></div>
+      </div>
+      <div id="board">
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+        <div class="board-line">
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+          <div class="board-item"></div>
+        </div>
+      </div>
+      <div id="lib">
+        <div class="lib-pre" num=0>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+        </div>
+        <div class="lib-pre" num = 1>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+        </div>
+        <div class="lib-pre" num = 2>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+          <div class="lib-line">
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+            <div class="lib-item"></div>
+          </div>
+        </div>
+      </div>
+      <div id="pre">
+          <div class="pre-line">
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+          </div>
+          <div class="pre-line">
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+          </div>
+          <div class="pre-line">
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+          </div>
+          <div class="pre-line">
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+          </div>
+          <div class="pre-line">
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+            <div class="pre-item"></div>
+          </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
